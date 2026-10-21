@@ -1,0 +1,85 @@
+[{
+        "name": "Iris",
+        "reward": "年度風雲獎",
+        "imgLink": "historyGame/GameNTUST_06.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=h8CM0UGuznc&feature=youtu.be"
+    },
+    {
+        "name": "RunHexy",
+        "reward": "最佳人氣獎",
+        "imgLink": "historyGame/GameNTU_01.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=jrK-TS8Gpqg"
+    },
+    {
+        "name": "三寶城市的外送員",
+        "reward": "最佳遊戲設計獎",
+        "imgLink": "historyGame/GameNCCU_02.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=q2_JjkNxK3I"
+    },
+    {
+        "name": "BRAND NEW BALANCE",
+        "reward": "最佳遊戲設計獎佳作",
+        "imgLink": "historyGame/GameNTU_11.jpg",
+        "youtubeLink": "https://drive.google.com/drive/folders/1Au1ZLr_49OrQ8QMScJXqIi5faGNyPv5L"
+    },
+    {
+        "name": "Action Stationery",
+        "reward": "最佳創新獎優等",
+        "imgLink": "historyGame/GameNTHU_01.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=gOsoYAamU8k"
+    },
+    {
+        "name": "OMyDeadBody",
+        "reward": "最佳創新獎佳作",
+        "imgLink": "historyGame/GameNTHU_03.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=DT9nmJqxdSQ"
+    },
+    {
+        "name": "Happy Soul Friends",
+        "reward": "最佳遊戲劇本獎佳作",
+        "imgLink": "historyGame/GameNTHU_11.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=KrRU55yxtpY"
+    },
+    {
+        "name": "MY DEVIL BOSS",
+        "reward": "最佳音效獎優等",
+        "imgLink": "historyGame/GameNTUST_03.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=B1MIr5ze-jw&list=PLjZzmHQfDRlKLklbYUau2UqGx25A4C-3Y&index=2"
+    },
+    {
+        "name": "The Haunted Village",
+        "reward": "最佳視覺設計獎佳作",
+        "imgLink": "historyGame/GameNTHU_12.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=2atAtQt6Jxc"
+    },
+    {
+        "name": "克羅傳說",
+        "imgLink": "historyGame/GameNTHU_10.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=kC895xgAUKY"
+    },
+    {
+        "name": "Undercurrent 暗流",
+        "imgLink": "historyGame/GameNTU_05.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=2ATeJGnMsDs"
+    },
+    {
+        "name": "咒文自己寫",
+        "imgLink": "historyGame/GameNCCU_03.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=bVRc9sdqP54"
+    },
+    {
+        "name": "魔女的贗品",
+        "imgLink": "historyGame/GameNTHU_06.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=lUNoJ-OrMbM"
+    },
+    {
+        "name": "女兒",
+        "imgLink": "historyGame/GameNCCU_05.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=tLl7_xMWmPY"
+    },
+    {
+        "name": "Time Master",
+        "imgLink": "historyGame/GameNTUST_02.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=JfrvcS0dpcg"
+    }
+]

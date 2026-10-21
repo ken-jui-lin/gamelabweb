@@ -1,0 +1,120 @@
+[{
+        "name": "Temporal Echo",
+        "reward": "最佳創新獎優等",
+        "imgLink": "game2023/temporalEchoes.png",
+        "pdfLink": "https://drive.google.com/file/d/1iJUYD4xoIL_XGkLIATnUScdiXvMiBcHj/view?usp=drive_link",
+        "youtubeLink": "https://www.youtube.com/watch?v=7W-XxGY6h_4"
+    },
+    {
+        "name": "張教授的Lab",
+        "reward": "最佳創新獎佳作",
+        "imgLink": "game2023/timeFactory.png",
+        "pdfLink": "https://drive.google.com/file/d/1GUG4Rqye25AHUFdOaCyFZt-GaPNf3yKq/view?usp=drive_link",
+        "youtubeLink": "https://youtu.be/1XaujOtTVXw"
+    },
+    {
+        "name": "R. O. M.",
+        "reward": "最佳技術獎優等",
+        "imgLink": "game2023/ROM.png",
+        "pdfLink": "https://drive.google.com/file/d/1yT27x3U4I04XRKftzG0lySjlRs4z2Rrm/view?usp=drive_link",
+        "youtubeLink": "https://www.youtube.com/watch?v=GXqoc0RkPAU"
+    },
+    {
+        "name": ":G40:",
+        "reward": "最佳技術獎佳作",
+        "imgLink": "game2023/G40.png",
+        "pdfLink": "https://drive.google.com/file/d/1j1cNlopQKspj37DjvSFw4bX_Qw17Y7gt/view?usp=drive_link",
+        "youtubeLink": "https://www.youtube.com/watch?v=wqozptbWLQE&ab_channel=%E9%99%B3%E5%AD%90%E9%BA%9F"
+    },
+    {
+        "name": "OREF",
+        "reward": "最佳音效獎優等",
+        "imgLink": "game2023/OREF.png",
+        "pdfLink": "https://drive.google.com/file/d/1zJzlyp987D7HH3ixd8gOuv3nCJs1QaCu/view?usp=drive_link",
+        "youtubeLink": "https://youtu.be/aKPCUF9FfaA?si=D6QlnL_yHBt77pVN"
+    },
+    {
+        "name": "LOST TEDDY",
+        "reward": "最佳音效獎佳作",
+        "imgLink": "game2023/LOST TEDDY.png",
+        "pdfLink": "https://drive.google.com/file/d/19GB-5lpUih_KJNc3uLGynjZMhCks3Ere/view?usp=drive_link",
+        "youtubeLink": "https://youtu.be/IfDNPyKYjuY"
+    },
+    {
+        "name": "六層派",
+        "reward": "最佳視覺獎優等",
+        "imgLink": "game2023/BetweenTwins.png",
+        "pdfLink": "https://drive.google.com/file/d/1-xxKlXPwuiPN7ZVZEikJy0OZuBXa9tiq/view?usp=drive_link",
+        "youtubeLink": "https://youtu.be/EuXbf7LijYk"
+    },
+    {
+        "name": "背叛者聯盟",
+        "reward": "最佳視覺獎佳作",
+        "imgLink": "game2023/dumi.png",
+        "pdfLink": "https://drive.google.com/file/d/1mwR3VR1zb3dicbMrC7Vc3fCcuKrV_2iL/view?usp=drive_link",
+        "youtubeLink": "https://youtu.be/qR1iPr6sZ7s"
+    },
+    {
+        "name": "愛貓人士",
+        "reward": "年度風雲獎",
+        "imgLink": "game2023/catventure.png",
+        "pdfLink": "https://drive.google.com/file/d/15HAT-AXtQ2vBWblT41RgU7J5i6A8h-o8/view?usp=drive_link",
+        "youtubeLink": "https://youtu.be/-aOHsFUbYw4"
+    },
+    {
+        "name": "阿格麗工作室",
+        "reward": "酷碼未來之星獎",
+        "imgLink": "game2023/witchOfLegends.png",
+        "pdfLink": "https://drive.google.com/file/d/1klMyHhNBZu9ImXRp9qhllYQwCPEJBx7Z/view?usp=drive_link",
+        "youtubeLink": "https://www.youtube.com/watch?v=lWvb4raLsN4&ab_channel=%E9%99%B3%E6%9F%8F%E7%9D%BF"
+    },
+    {
+        "name": "沒人在乎",
+        "reward": "",
+        "imgLink": "game2023/noOneCare.png",
+        "pdfLink": "https://drive.google.com/file/d/1liUe8C3VGF2lPSEJ0MJZPvughy8z71UH/view?usp=drive_link",
+        "youtubeLink": "https://youtu.be/VkEu0wB8QM8"
+    },
+    {
+        "name": "念念探險隊",
+        "reward": "",
+        "imgLink": "game2023/journeyOfBook.png",
+        "pdfLink": "https://drive.google.com/file/d/1Rs1Z1P_LkEnjE5LDkKtfJunka-T-rCTI/view?usp=drive_link",
+        "youtubeLink": "https://youtu.be/etbIyQgul04?si=gXizsfSn4iT01z2d"
+    },
+    {
+        "name": "忍者大師",
+        "reward": "",
+        "imgLink": "game2023/ninja.png",
+        "pdfLink": "https://drive.google.com/file/d/1eBZJMNpM4d70rQyZaCBTqm223dM7u0bO/view?usp=drive_link",
+        "youtubeLink": "https://youtu.be/91HCyw3K0co"
+    },
+    {
+        "name": "銀杏神社",
+        "reward": "",
+        "imgLink": "game2023/soulKnight.png",
+        "pdfLink": "https://drive.google.com/file/d/1dLT3_I-u2gHt0UFoSK8znbiSkzFb-f5Q/view?usp=drive_link",
+        "youtubeLink": "https://www.youtube.com/watch?v=6_ljIyjaR8E"
+    },
+    {
+        "name": "Revive",
+        "reward": "",
+        "imgLink": "game2023/Revive.png",
+        "pdfLink": "https://drive.google.com/file/d/1chF3rxiLZC5-j14Ypu4Uz5MJMg7fe5ny/view?usp=drive_link",
+        "youtubeLink": "https://youtu.be/KZBFCUkHH8c"
+    },
+    {
+        "name": "Meow Knight",
+        "reward": "",
+        "imgLink": "game2023/Meow Knight.png",
+        "pdfLink": "https://drive.google.com/file/d/17OBSkB88aQJhUuGrh0NnGDoT_NnVf7TI/view?usp=drive_link",
+        "youtubeLink": "https://youtu.be/2Z4XVSQKbdg"
+    },
+    {
+        "name": "Tears of ancestors",
+        "reward": "",
+        "imgLink": "game2023/Tears of ancestors.png",
+        "pdfLink": "https://drive.google.com/file/d/1ylvcM6r_3-lvyUllJDCWu4siODGDx-rF/view?usp=drive_link",
+        "youtubeLink": "https://www.youtube.com/watch?v=utajysQgYvw&feature=youtu.be"
+    }
+]
