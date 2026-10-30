@@ -3620,7 +3620,7 @@ body { display: block; background: var(--paper); font-family: 'Microsoft JhengHe
 .menu-toggle { display: none; }
 .brand-layout .content-page { min-height: 0; height: auto; width: 100%; padding: 0; font-family: inherit; }
 .brand-layout .inner-page { max-width: 1280px; margin: 0 auto; padding: 64px 6% 80px; min-height: 65vh; }
-.brand-hero { width: 100%; min-height: 660px; position: relative; display: grid; place-items: center; isolation: isolate; border-bottom: 3px solid var(--ink); background: var(--paper) url('../assets/images/brand/hero-art.png?v=mvte99i9') center center / cover no-repeat; }
+.brand-hero { width: 100%; min-height: 660px; position: relative; display: grid; place-items: center; isolation: isolate; border-bottom: 3px solid var(--ink); background: var(--paper) url('../assets/images/brand/hero-art.png?v=mvurel9g') center center / cover no-repeat; }
 .hero-copy { text-align: center; padding: 95px 20px 82px; width: min(960px, 76%); position: relative; }
 .hero-edition { font: 900 12px/1.5 Arial, sans-serif; letter-spacing: .13em; display: inline-flex; align-items: center; gap: 12px; margin: 0 0 21px; background: var(--ink); color: var(--paper); padding: 6px 12px; transform: rotate(-2deg); }
 .hero-edition span { color: #ffb892; font-size: 10px; }
