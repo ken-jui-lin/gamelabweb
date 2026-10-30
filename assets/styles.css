@@ -3620,7 +3620,7 @@ body { display: block; background: var(--paper); font-family: 'Microsoft JhengHe
 .menu-toggle { display: none; }
 .brand-layout .content-page { min-height: 0; height: auto; width: 100%; padding: 0; font-family: inherit; }
 .brand-layout .inner-page { max-width: 1280px; margin: 0 auto; padding: 64px 6% 80px; min-height: 65vh; }
-.brand-hero { width: 100%; min-height: 660px; position: relative; display: grid; place-items: center; isolation: isolate; border-bottom: 3px solid var(--ink); background: var(--paper) url('../assets/images/brand/hero-art.png?v=mvutjity') center center / cover no-repeat; }
+.brand-hero { width: 100%; min-height: 660px; position: relative; display: grid; place-items: center; isolation: isolate; border-bottom: 3px solid var(--ink); background: var(--paper) url('../assets/images/brand/hero-art.png?v=mvuudze0') center center / cover no-repeat; }
 .hero-copy { text-align: center; padding: 95px 20px 82px; width: min(960px, 76%); position: relative; }
 .hero-edition { font: 900 12px/1.5 Arial, sans-serif; letter-spacing: .13em; display: inline-flex; align-items: center; gap: 12px; margin: 0 0 21px; background: var(--ink); color: var(--paper); padding: 6px 12px; transform: rotate(-2deg); }
 .hero-edition span { color: #ffb892; font-size: 10px; }
@@ -3753,8 +3753,10 @@ body { display: block; background: var(--paper); font-family: 'Microsoft JhengHe
  .brand-layout .inner-page { padding: 40px 6% 64px; }
 }
 @media (max-width: 480px) {
- .brand-hero { min-height: 540px; background-size: 100% auto; background-position: center top; overflow: hidden; }
- .brand-hero::before { content: ''; position: absolute; inset: auto 0 0; height: 130px; background: inherit; background-position: center bottom; background-size: 100% auto; pointer-events: none; z-index: -1; }
+ .brand-hero { min-height: 540px; background-size: 0 0; background-position: center top; overflow: hidden; }
+ .brand-hero::before, .brand-hero::after { content: ''; position: absolute; left: 0; right: 0; background: inherit; background-size: 115% auto; pointer-events: none; z-index: -1; }
+ .brand-hero::after { top: 0; height: 34vw; background-position: center top; }
+ .brand-hero::before { bottom: 0; height: 28vw; background-position: center bottom; }
  .hero-copy { width: 100%; padding: 130px 16px 118px; }
  .hero-title { font-size: clamp(66px,22vw,105px); -webkit-text-stroke-width: 3px; text-shadow: 4px 5px 0 var(--ink),7px 8px 0 var(--orange) !important; }
  .hero-edition { font-size: 9px; padding: 5px 8px; gap: 6px; letter-spacing: .06em; }
