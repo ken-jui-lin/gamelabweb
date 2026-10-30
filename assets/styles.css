@@ -3620,11 +3620,11 @@ body { display: block; background: var(--paper); font-family: 'Microsoft JhengHe
 .menu-toggle { display: none; }
 .brand-layout .content-page { min-height: 0; height: auto; width: 100%; padding: 0; font-family: inherit; }
 .brand-layout .inner-page { max-width: 1280px; margin: 0 auto; padding: 64px 6% 80px; min-height: 65vh; }
-.brand-hero { width: 100%; min-height: 660px; position: relative; display: grid; place-items: center; isolation: isolate; border-bottom: 3px solid var(--ink); background: var(--paper) url('../assets/images/brand/hero-art.png?v=mvurel9g') center center / cover no-repeat; }
+.brand-hero { width: 100%; min-height: 660px; position: relative; display: grid; place-items: center; isolation: isolate; border-bottom: 3px solid var(--ink); background: var(--paper) url('../assets/images/brand/hero-art.png?v=mvutjity') center center / cover no-repeat; }
 .hero-copy { text-align: center; padding: 95px 20px 82px; width: min(960px, 76%); position: relative; }
 .hero-edition { font: 900 12px/1.5 Arial, sans-serif; letter-spacing: .13em; display: inline-flex; align-items: center; gap: 12px; margin: 0 0 21px; background: var(--ink); color: var(--paper); padding: 6px 12px; transform: rotate(-2deg); }
 .hero-edition span { color: #ffb892; font-size: 10px; }
-.hero-title { font-family: 'Microsoft JhengHei', sans-serif; color: var(--paper); font-size: clamp(80px, 12.5vw, 180px); font-weight: 1000; line-height: 1.1; letter-spacing: -.08em; margin: 0 0 12px; white-space: nowrap; transform: skew(-7deg) rotate(-2deg); -webkit-text-stroke: 5px var(--ink); paint-order: stroke fill; text-shadow: 7px 8px 0 var(--ink), 11px 12px 0 var(--orange) !important; filter: drop-shadow(-3px -3px 0 var(--orange)); }
+.hero-title { font-family: 'Microsoft JhengHei', sans-serif; color: var(--paper); font-size: clamp(80px, 14vw, 200px); font-weight: 1000; line-height: 1.1; letter-spacing: -.08em; margin: 0 0 12px; white-space: nowrap; transform: skew(-7deg) rotate(-2deg); -webkit-text-stroke: 5px var(--ink); paint-order: stroke fill; text-shadow: 7px 8px 0 var(--ink), 11px 12px 0 var(--orange) !important; filter: drop-shadow(-3px -3px 0 var(--orange)); }
 .hero-tagline { font-size: clamp(23px, 3.8vw, 50px); font-weight: 1000; font-style: italic; letter-spacing: .08em; line-height: 1.5; margin-top: 14px; }
 .hero-tagline span { color: var(--orange); margin: 0 10px; }
 .hero-event { font-size: 18px; font-weight: 900; letter-spacing: .08em; margin-top: 6px; }
@@ -3753,9 +3753,10 @@ body { display: block; background: var(--paper); font-family: 'Microsoft JhengHe
  .brand-layout .inner-page { padding: 40px 6% 64px; }
 }
 @media (max-width: 480px) {
- .brand-hero { min-height: 560px; background-size: auto 100%; }
- .hero-copy { width: 100%; padding: 95px 12px 90px; }
- .hero-title { font-size: 77px; -webkit-text-stroke-width: 3px; text-shadow: 4px 5px 0 var(--ink),7px 8px 0 var(--orange) !important; }
+ .brand-hero { min-height: 540px; background-size: 100% auto; background-position: center top; overflow: hidden; }
+ .brand-hero::before { content: ''; position: absolute; inset: auto 0 0; height: 130px; background: inherit; background-position: center bottom; background-size: 100% auto; pointer-events: none; z-index: -1; }
+ .hero-copy { width: 100%; padding: 130px 16px 118px; }
+ .hero-title { font-size: clamp(66px,22vw,105px); -webkit-text-stroke-width: 3px; text-shadow: 4px 5px 0 var(--ink),7px 8px 0 var(--orange) !important; }
  .hero-edition { font-size: 9px; padding: 5px 8px; gap: 6px; letter-spacing: .06em; }
  .hero-edition span { font-size: 7px; }
  .hero-tagline { font-size: 24px; letter-spacing: .04em; margin-top: 15px; }
@@ -3821,6 +3822,12 @@ body { display: block; background: var(--paper); font-family: 'Microsoft JhengHe
 .notice-empty p { font-size: 14px; color: #736858; }
 .brand-layout .notice-empty h1 { text-align: center; }
 .brand-layout .notice-empty h1::after { margin: 14px auto 0; }
+
+/* Short landscape screens need a larger title than the tablet rule. */
+@media (orientation: landscape) and (max-height: 600px) and (max-width: 1100px) {
+ .hero-copy { width: 94%; }
+ .hero-title { font-size: clamp(100px,18vw,184px); }
+}
 
 .brand-layout .live-content { width: 100%; padding: 0; }
 .live-stream { margin: 32px 0; }
