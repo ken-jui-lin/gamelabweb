@@ -3620,7 +3620,7 @@ body { display: block; background: var(--paper); font-family: 'Microsoft JhengHe
 .menu-toggle { display: none; }
 .brand-layout .content-page { min-height: 0; height: auto; width: 100%; padding: 0; font-family: inherit; }
 .brand-layout .inner-page { max-width: 1280px; margin: 0 auto; padding: 64px 6% 80px; min-height: 65vh; }
-.brand-hero { width: 100%; min-height: 660px; position: relative; display: grid; place-items: center; isolation: isolate; border-bottom: 3px solid var(--ink); background: var(--paper) url('../assets/images/brand/hero-art.png?v=mw0ez6ll') center center / cover no-repeat; }
+.brand-hero { width: 100%; min-height: 660px; position: relative; display: grid; place-items: center; isolation: isolate; border-bottom: 3px solid var(--ink); background: var(--paper) url('../assets/images/brand/hero-art.png?v=mw0jb5zc') center center / cover no-repeat; }
 .hero-copy { text-align: center; padding: 95px 20px 82px; width: min(960px, 76%); position: relative; }
 .hero-edition { font: 900 12px/1.5 Arial, sans-serif; letter-spacing: .13em; display: inline-flex; align-items: center; gap: 12px; margin: 0 0 21px; background: var(--ink); color: var(--paper); padding: 6px 12px; transform: rotate(-2deg); }
 .hero-edition span { color: #ffb892; font-size: 10px; }
@@ -3856,6 +3856,12 @@ body { display: block; background: var(--paper); font-family: 'Microsoft JhengHe
 .competition-rule-section h3 { font-size: 17px; font-weight: 800; margin: 24px 0 10px; }
 .competition-rule-section p { line-height: 1.9; margin: 0 0 10px; overflow-wrap: anywhere; }
 .competition-rule-section a { color: #a73712; text-decoration: underline; }
+.competition-rule-section .rule-stage { margin-bottom: 24px; }
+.competition-rule-section .rule-subgroup { margin: 18px 0 0 16px; padding-left: 16px; border-left: 2px solid #d7cfbd; }
+.competition-rule-section .rule-subgroup h4 { font-size: 15px; font-weight: 800; margin: 0 0 10px; }
+.competition-rule-section .rule-items { list-style: disc outside; margin: 0; padding-left: 1.5em; }
+.competition-rule-section .rule-items > li { display: list-item; line-height: 1.9; margin: 0 0 10px; padding: 0; overflow-wrap: anywhere; }
+.competition-rule-section .rule-document-note { margin-top: 28px; }
 @media(max-width:480px) { .header-standard-wordmark { width: 118px; } .competition-rule-section h2 { font-size: 19px; } .competition-rule-section h3 { font-size: 16px; } }
 
 .brand-layout .live-content { width: 100%; padding: 0; }
