@@ -3620,7 +3620,7 @@ body { display: block; background: var(--paper); font-family: 'Microsoft JhengHe
 .menu-toggle { display: none; }
 .brand-layout .content-page { min-height: 0; height: auto; width: 100%; padding: 0; font-family: inherit; }
 .brand-layout .inner-page { max-width: 1280px; margin: 0 auto; padding: 64px 6% 80px; min-height: 65vh; }
-.brand-hero { width: 100%; min-height: 660px; position: relative; display: grid; place-items: center; isolation: isolate; border-bottom: 3px solid var(--ink); background: var(--paper) url('../assets/images/brand/hero-art.png?v=mvz4lt8e') center center / cover no-repeat; }
+.brand-hero { width: 100%; min-height: 660px; position: relative; display: grid; place-items: center; isolation: isolate; border-bottom: 3px solid var(--ink); background: var(--paper) url('../assets/images/brand/hero-art.png?v=mw0ez6ll') center center / cover no-repeat; }
 .hero-copy { text-align: center; padding: 95px 20px 82px; width: min(960px, 76%); position: relative; }
 .hero-edition { font: 900 12px/1.5 Arial, sans-serif; letter-spacing: .13em; display: inline-flex; align-items: center; gap: 12px; margin: 0 0 21px; background: var(--ink); color: var(--paper); padding: 6px 12px; transform: rotate(-2deg); }
 .hero-edition span { color: #ffb892; font-size: 10px; }
@@ -3846,6 +3846,17 @@ body { display: block; background: var(--paper); font-family: 'Microsoft JhengHe
 .social-facebook .social-icon { font: 900 32px/28px Arial,sans-serif; text-align: center; }
 @media(max-width:800px) { .footer-links { width: 100%; flex-direction: row; flex-wrap: wrap; } .footer-links .social-button { flex: 1 1 220px; } }
 @media(max-width:480px) { .footer-links { flex-direction: column; } .footer-links .social-button { flex: auto; width: 100%; } }
+
+.header-standard-wordmark { display: block; width: 128px; height: auto; margin-bottom: 5px; }
+.brand-layout .compact-timeline .rules-content-schedule-bar::before { right: 37.5%; }
+.brand-layout .compact-timeline .rules-content-schedule-bar::after { content: ''; position: absolute; left: 62.5%; right: 12.5%; top: 50%; border-top: 3px dashed var(--ink); transform: translateY(-50%); }
+.brand-layout .compact-timeline .rules-content-schedule-bar > div { z-index: 1; }
+.competition-rule-section { margin: 0 0 32px; }
+.competition-rule-section h2 { font-size: 21px; font-weight: 900; margin: 0 0 14px; }
+.competition-rule-section h3 { font-size: 17px; font-weight: 800; margin: 24px 0 10px; }
+.competition-rule-section p { line-height: 1.9; margin: 0 0 10px; overflow-wrap: anywhere; }
+.competition-rule-section a { color: #a73712; text-decoration: underline; }
+@media(max-width:480px) { .header-standard-wordmark { width: 118px; } .competition-rule-section h2 { font-size: 19px; } .competition-rule-section h3 { font-size: 16px; } }
 
 .brand-layout .live-content { width: 100%; padding: 0; }
 .live-stream { margin: 32px 0; }
