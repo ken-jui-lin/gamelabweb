@@ -3620,7 +3620,7 @@ body { display: block; background: var(--paper); font-family: 'Microsoft JhengHe
 .menu-toggle { display: none; }
 .brand-layout .content-page { min-height: 0; height: auto; width: 100%; padding: 0; font-family: inherit; }
 .brand-layout .inner-page { max-width: 1280px; margin: 0 auto; padding: 64px 6% 80px; min-height: 65vh; }
-.brand-hero { width: 100%; min-height: 660px; position: relative; display: grid; place-items: center; isolation: isolate; border-bottom: 3px solid var(--ink); background: var(--paper) url('../assets/images/brand/hero-art.png?v=mw3nx62i') center center / cover no-repeat; }
+.brand-hero { width: 100%; min-height: 660px; position: relative; display: grid; place-items: center; isolation: isolate; border-bottom: 3px solid var(--ink); background: var(--paper) url('../assets/images/brand/hero-art.png?v=mw3ock0d') center center / cover no-repeat; }
 .hero-copy { text-align: center; padding: 95px 20px 82px; width: min(960px, 76%); position: relative; }
 .hero-edition { font: 900 12px/1.5 Arial, sans-serif; letter-spacing: .13em; display: inline-flex; align-items: center; gap: 12px; margin: 0 0 21px; background: var(--ink); color: var(--paper); padding: 6px 12px; transform: rotate(-2deg); }
 .hero-edition span { color: #ffb892; font-size: 10px; }
@@ -3673,14 +3673,14 @@ body { display: block; background: var(--paper); font-family: 'Microsoft JhengHe
 .brand-layout .inner-page h1::after { content: ''; width: 58px; height: 6px; display: block; margin-top: 14px; background: var(--orange); transform: skew(-20deg); }
 .brand-layout .inner-page h2, .brand-layout .inner-page h3 { font-family: inherit; }
 .brand-layout .rules, .brand-layout .agenda, .brand-layout .info, .brand-layout .posts, .brand-layout .sponsors, .brand-layout .games { overflow: visible; height: auto; font-family: inherit; color: var(--ink); }
-.brand-layout .rules-content, .brand-layout .agenda-content, .brand-layout .info-content, .brand-layout .posts-content, .brand-layout .sponsors-content, .brand-layout .games-content { padding: 0; gap: 48px; overflow: visible; font-size: 15px; }
+.brand-layout .rules-content, .brand-layout .agenda-content, .brand-layout .info-content, .brand-layout .posts-content, .brand-layout .sponsors-content, .brand-layout .games-content { padding: 0; gap: 48px; overflow: visible; font-size: 17px; }
 .brand-layout .rules-content-competition-rules ol, .brand-layout .agenda-content-comp ol { line-height: 1.9; }
 .brand-layout .rules-content-competition-rules ol > li, .brand-layout .agenda-content-comp ol > li { margin: 0 0 12px 22px; }
 .brand-layout .agenda-content-about ul { line-height: 2; }
 .brand-layout .agenda-content-about ul ul { margin-left: 24px; }
 .brand-layout .compact-timeline { padding: 26px 6px; }
-.brand-layout .compact-timeline .rules-content-schedule-date, .brand-layout .compact-timeline .rules-content-schedule-describe { font-size: clamp(12px,1.5vw,17px); font-weight: 800; }
-.brand-layout .compact-timeline .timeline-year { color: #756c60; font: 700 11px Arial,sans-serif; margin-bottom: 8px; }
+.brand-layout .compact-timeline .rules-content-schedule-date, .brand-layout .compact-timeline .rules-content-schedule-describe { font-size: clamp(15px,2vw,27px); font-weight: 800; }
+.brand-layout .compact-timeline .timeline-year { color: #756c60; font: 700 clamp(13px,1.2vw,17px) Arial,sans-serif; margin-bottom: 8px; }
 .brand-layout .compact-timeline .rules-content-schedule-bar::before { background: var(--ink); height: 3px; }
 .brand-layout .compact-timeline .rules-content-schedule-bar > div:nth-child(n) { background: var(--orange); border: 3px solid var(--ink); border-radius: 0; box-shadow: 4px 4px 0 var(--ink); width: 23px; height: 23px; }
 .brand-layout .rules-content-reward-table { max-width: none; border: 2px solid var(--ink); background: #fffdf7; }
@@ -3788,7 +3788,7 @@ body { display: block; background: var(--paper); font-family: 'Microsoft JhengHe
  .footer-bottom { gap: 20px; font-size: 7px; line-height: 1.6; }
  .brand-layout .inner-page h1 { font-size: 28px; margin-bottom: 26px; }
  .brand-layout .rules-content, .brand-layout .agenda-content { font-size: 13px; gap: 36px; }
- .brand-layout .compact-timeline .rules-content-schedule-date, .brand-layout .compact-timeline .rules-content-schedule-describe { font-size: 11px; }
+ .brand-layout .compact-timeline .rules-content-schedule-date, .brand-layout .compact-timeline .rules-content-schedule-describe { font-size: 13px; }
  .brand-layout .rules-content-reward-table th, .brand-layout .rules-content-reward-table tr td { padding: 13px 12px; }
 }
 
@@ -3804,7 +3804,7 @@ body { display: block; background: var(--paper); font-family: 'Microsoft JhengHe
 .document-card { padding: 28px; border: 2px solid var(--ink); background: #fffdf7; box-shadow: 5px 5px 0 var(--ink); display: flex; flex-direction: column; min-height: 270px; }
 .document-label { color: #9c3d1e; font: 900 10px Arial,sans-serif; letter-spacing: .1em; }
 .document-card h2 { margin-top: 20px; font-size: 20px; line-height: 1.5; }
-.document-content { margin-top: auto; padding-top: 24px; font-size: 12px; line-height: 1.8; color: #665b4c; }
+.document-content { margin-top: auto; padding-top: 24px; font-size: 15px; line-height: 1.8; color: #665b4c; }
 .document-content a { display: block; margin-top: 18px; }
 .document-content svg { color: var(--orange) !important; }
 .brand-layout .post-card { height: auto; min-height: 100px; padding: 20px; }
@@ -3824,7 +3824,7 @@ body { display: block; background: var(--paper); font-family: 'Microsoft JhengHe
 .notice-empty { border: 2px solid var(--ink); background: #fffdf7; padding: 54px 28px; text-align: center; box-shadow: 5px 5px 0 var(--ink); }
 .notice-empty > span { font: 900 10px Arial,sans-serif; color: #9c3d1e; letter-spacing: .15em; }
 .notice-empty h2 { font-size: 25px; margin: 18px 0 12px; }
-.notice-empty p { font-size: 14px; color: #736858; }
+.notice-empty p { font-size: 16px; color: #736858; }
 .brand-layout .notice-empty h1 { text-align: center; }
 .brand-layout .notice-empty h1::after { margin: 14px auto 0; }
 
